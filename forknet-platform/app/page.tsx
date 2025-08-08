@@ -361,16 +361,11 @@ export default function LandingPage() {
             Join the Web3 food delivery revolution today and earn rewards while enjoying your favorite meals.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center items-center">
             <Link href="/customer/dashboard">
               <Button size="lg" variant="secondary" className="bg-white text-purple-600 hover:bg-gray-100 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 px-8 py-4 text-lg">
                 Start Ordering Now
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
-            <Link href="/auth/register">
-              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 text-lg">
-                Create Account
               </Button>
             </Link>
           </div>
@@ -386,12 +381,7 @@ export default function LandingPage() {
               <p className="text-muted-foreground mb-4">
                 The future of food delivery, powered by Web3 technology and built on Hedera Hashgraph.
               </p>
-              <div className="flex space-x-4">
-                <Badge variant="secondary" className="bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200">
-                  <CheckCircle className="w-3 h-3 mr-1" />
-                  Carbon Negative
-                </Badge>
-              </div>
+              
             </div>
             
             <div>
